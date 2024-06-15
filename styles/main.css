@@ -1,12 +1,18 @@
 body {
-  background-color: wheat;
+  background-color: rgb(243, 208, 143);
 }
 img {
   width: 10vmax;
 }
 .header {
-  background-color: white;
+  background-color: wheat;
   display: flex;
+  border-color: rgb(238, 189, 98);
+  border-width: 15px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
 }
 .title {
   font-family: monospace;
@@ -31,15 +37,20 @@ p {
 .writing {
   display: flex;
   flex-direction: column;
-  border-color: black;
-  border-width: 5px;
+  background-color: wheat;
+  border-color: rgb(238, 189, 98);
+  border-width: 8px;
   border-style: solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
 }
 .links {
-  background-color: white;
-  border-color: gray;
-  border-width: 15px;
+  background-color: wheat;
+  border-color: rgb(238, 189, 98);
+  border-width: 8px;
   border-style: solid;
+  border-radius: 10px;
   padding: 5px;
   margin: 5px;
 }
